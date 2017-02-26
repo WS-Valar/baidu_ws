@@ -1,0 +1,175 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: "Microsoft Yahei";
+	background-color: #ddd; 
+}
+/*导航*/
+header{
+	height: 70px;
+	background-color: #333;
+}
+.logo img{
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+	width: 130px;
+}
+header>nav{
+	margin-top:25px;
+	margin-right: 25px;
+	float: right;
+}
+header nav ul li{
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-left: 30px;
+}
+header nav ul li:before{
+	content: "";
+	display: block;
+	width: 6px;
+	height:6px;
+	border-radius: 50%;
+	background-color: #000;
+	position:absolute;
+	top:8px;
+	left:-12px;
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+}
+header a:hover{
+	color: #aaa;
+}
+header img{
+	margin-left:40px;
+	max-width: 150px; 
+	display: inline-block;
+	float: left;
+}
+/*第一部分*/
+.container{
+	background-color: #ddd;
+	margin: 20px 20px;
+}
+.page{
+	border: 1px solid #ccc;
+	padding: 40px;
+	background-color: #fff;
+	box-shadow: 1px 1px 1px #333;
+	margin-bottom: 20px;
+}
+.page h2{
+	line-height: 2.5em;
+}
+.page h3,.page span{
+	line-height: 2em;
+	color:#777;
+}
+.page p{
+	margin-top: 10px;
+	line-height: 1.5;
+	text-indent: 2em; 
+}
+.page ul{
+	list-style: none;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.imgbox{
+	width: 300px;
+	height: 200px;
+	margin: 20px;
+	border: 1px solid #ccc;
+}
+.imgbox img{
+	width: 100%;
+}
+.imgbox figcaption{
+	margin-bottom: 5px;
+	text-align: center;
+}
+.page ol{
+	margin-left: 40px; 
+}
+.page>.noindent{
+	text-indent: 0;
+}
+.page table{
+	border-collapse: collapse;
+	width: 100%;
+	border:1px solid #ccc;
+}
+.page table th{
+	text-align: left;
+	background-color:#333;
+	color: #fff;
+}
+.page table th,
+.page table td{
+	padding: 5px;
+	border-color:  #ccc;
+}
+.page table tr:last-of-type{
+	background-color: #ccc;
+	font-weight: bold;
+}
+/*侧边栏*/
+.page h2{
+	line-height: 2;
+	padding-left: 15px;
+	border-left: 3px solid #ccc;
+	font-size: 17px;
+}
+.page form div{
+	margin: 10px;
+}
+.page form div label{
+	display: inline-block;
+	width: 30%;
+	margin-right: 10px;
+	text-align: right;
+	vertical-align: top;
+}
+.page form span{
+	display: inline-block;
+	margin-left: 30.5%;
+	margin-bottom: 10px;
+	color: #aaa;
+}
+.page form textarea{
+	width: 50%;
+	height: 200px;
+}
+.btn{
+	width: 80%;
+	display: block;
+	margin: auto;
+	color: #fff;
+	height: 45px;
+	background-color: #00f;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 0 8px #00f;
+	cursor: pointer;
+}
+.btn:hover {
+	transition: 0.5s;
+	background-color: #11a;
+}
+/*尾部*/
+footer{
+	display: block;
+	width: 100%;
+	height: 70px;
+	background-color: #000;
+	text-align: center;
+	padding-top:25px;
+	font-size: 14px;
+	color: #fff;
+}
